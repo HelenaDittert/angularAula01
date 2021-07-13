@@ -1,0 +1,12 @@
+form{
+    margin: 0 auto;
+    width: 15%;
+    background-color: rgb(213, 182, 241);
+    border: 1px solid violet;
+    border-radius: 20px;
+    padding: 15px;
+}
+h1{
+    color:gray;
+    text-align: center;
+}
