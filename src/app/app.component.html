@@ -1,8 +1,14 @@
 <form action="">
     <h1>Formulário</h1>
 
-    <nome></nome>
-    <app-anos></app-anos>
-    <app-email></app-email>
-    <app-senha></app-senha>
+    <nome [(ngModel)]="nome" ngDefaultControl name="nome"></nome>
+    <app-anos [(ngModel)]="idade" ngDefaultControl name="idade" ></app-anos>
+    <app-email [(ngModel)]="email" ngDefaultControl name="email"></app-email>
+    <app-senha [(ngModel)]="senha" ngDefaultControl name="senha"></app-senha>
 </form>
+<div>
+    <p>{{nome}}</p>
+    <p>{{idade}}</p>
+    <p>{{email}}</p>
+    <p>{{senha}}</p>
+</div>    

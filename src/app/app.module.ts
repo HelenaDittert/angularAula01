@@ -8,6 +8,7 @@ import {NomeComponent} from './nome/nome.component';
 import { EmailComponent } from './email/email.component';
 import { SenhaComponent } from './senha/senha.component';
 import { AnosComponent } from './anos/anos.component'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AnosComponent } from './anos/anos.component'
     AnosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
